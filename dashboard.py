@@ -112,7 +112,9 @@ plt.show()
 # --------------------dashboard--------------------
 st.title('Proyek Analisis Data :sparkles:')
 st.write('''"Proyek ini disusun sebagai syarat untuk menyelesaikan kelas Belajar Analisis Data dengan Python Dicoding"''')
+
 st.header('Bike Sharing Dataset')
+st.dataframe(data=bike_sharing, width=500, height=500)
 
 st.subheader('Pertanyaan Bisnis?')
 st.write('''- Bagaimana Pengaruh Musim Terhadap Jumlah Peminjaman Sepeda?
