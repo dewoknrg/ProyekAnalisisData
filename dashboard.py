@@ -118,7 +118,8 @@ st.subheader('Raw Dataset hour.csv')
 st.dataframe(data=hour, width=500, height=300)
 st.subheader('Raw Dataset day.csv')
 st.dataframe(data=day, width=500, height=300)
-st.write('''- instant: record index
+st.write('''
+	- instant: record index
 	- dteday : date
 	- season : season (1=springer, 2=summer, 3=fall, 4=winter)
 	- yr : year (0: 2011, 1:2012)
@@ -138,7 +139,8 @@ st.write('''- instant: record index
 	- windspeed: Normalized wind speed. The values are divided to 67 (max)
 	- casual: count of casual users
 	- registered: count of registered users
-	- cnt: count of total rental bikes including both casual and registered''')
+	- cnt: count of total rental bikes including both casual and registered
+ ''')
 
 st.subheader('Pertanyaan Bisnis?')
 st.write('''- Bagaimana Pengaruh Musim Terhadap Jumlah Peminjaman Sepeda?
