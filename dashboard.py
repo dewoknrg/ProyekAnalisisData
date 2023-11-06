@@ -12,8 +12,8 @@ import streamlit as st
 
 # --------------------gathering data--------------------
 # ambil source data
-hour = pd.read_csv(".\proyek_akhir\hour.csv") 
-day = pd.read_csv(".\proyek_akhir\day.csv")
+hour = pd.read_csv("hour.csv") 
+day = pd.read_csv("day.csv")
 
 # menghitung jumlah baris setiap DataFrame
 print("Jumlah baris di DataFrame day:", day.shape)
