@@ -181,7 +181,7 @@ with tab2:
     st.pyplot(fig)
 
     with st.expander("Conlusion"):
-        st.write('''Berdasarkan grafik diatas dapat diketahui bahwa jumlah sewa sepeda paling banyak terdapat pada bulan Juni dan jumlah sewa sepeda paling bsedikit terdapat pada bulan Januari.''')
+        st.write('''Berdasarkan grafik diatas dapat diketahui bahwa jumlah sewa sepeda paling banyak terdapat pada bulan Juni dan jumlah sewa sepeda paling sedikit terdapat pada bulan Januari.''')
  
 with tab3:
     st.header("Apakah Ada Pola Berdasarkan Bulan Dan Jam Dalam Jumlah Sewa Sepeda Harian?")
